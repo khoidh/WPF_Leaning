@@ -50,6 +50,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System" />
@@ -68,6 +69,51 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Binding_01.xaml.vb">
+      <DependentUpon>Binding_01.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Checkbox00.xaml.vb">
+      <DependentUpon>Checkbox00.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Checkbox01.xaml.vb">
+      <DependentUpon>Checkbox01.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Checkbox02.xaml.vb">
+      <DependentUpon>Checkbox02.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Checkbox03.xaml.vb">
+      <DependentUpon>Checkbox03.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListboxCustomize.xaml.vb">
+      <DependentUpon>ListboxCustomize.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Popup.xaml.vb">
+      <DependentUpon>Popup.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Binding_01.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Checkbox00.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Checkbox01.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Checkbox02.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Checkbox03.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListboxCustomize.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -80,6 +126,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Popup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Import Include="System.Threading.Tasks" />
@@ -130,6 +180,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Checked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\UnChecked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CheckboxCustomize\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Backgroud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\UnBackgroud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Checked_Icon.png" />
+    <Resource Include="Resources\Unchecked_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Hover_Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
