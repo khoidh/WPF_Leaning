@@ -259,7 +259,7 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
-
+	
 ## Bo qua Folder/File list
 #File =====================
 .7z

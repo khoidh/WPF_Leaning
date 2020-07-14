@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_ListView_ListViewITem", "Wpf_ListView\Wpf_ListView_ListViewITem.csproj", "{180BDD34-796E-4071-804D-09FAC438B2E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_ListView_DataBinding", "Wpf_ListView_DataBinding\Wpf_ListView_DataBinding.csproj", "{1E9225C0-D194-4B3B-8808-1AEAA89FDF3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_ListView_GridView", "Wpf_ListView_GridView\Wpf_ListView_GridView.csproj", "{5C2175D8-3CF2-483B-AFDF-8A67814E7CC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_ListView_GridView_TemplatedCellContent", "Wpf_ListView_GridView_TemplatedCellContent\Wpf_ListView_GridView_TemplatedCellContent.csproj", "{D9C64F0C-004F-4560-AEC1-B3BB452E4C34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_ListView_GridViewColumnHeaderResources", "Wpf_ListView_GridViewColumnHeaderResources\Wpf_ListView_GridViewColumnHeaderResources.csproj", "{3F03C6E4-0E9A-4E64-B990-A0D2B062BF9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_Listview_Grouping", "Wpf_Listview_Grouping\Wpf_Listview_Grouping.csproj", "{037B297E-E40B-4069-97D9-E1CB6115A669}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{180BDD34-796E-4071-804D-09FAC438B2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180BDD34-796E-4071-804D-09FAC438B2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180BDD34-796E-4071-804D-09FAC438B2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180BDD34-796E-4071-804D-09FAC438B2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E9225C0-D194-4B3B-8808-1AEAA89FDF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9225C0-D194-4B3B-8808-1AEAA89FDF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9225C0-D194-4B3B-8808-1AEAA89FDF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9225C0-D194-4B3B-8808-1AEAA89FDF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C2175D8-3CF2-483B-AFDF-8A67814E7CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C2175D8-3CF2-483B-AFDF-8A67814E7CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C2175D8-3CF2-483B-AFDF-8A67814E7CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C2175D8-3CF2-483B-AFDF-8A67814E7CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C64F0C-004F-4560-AEC1-B3BB452E4C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C64F0C-004F-4560-AEC1-B3BB452E4C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C64F0C-004F-4560-AEC1-B3BB452E4C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C64F0C-004F-4560-AEC1-B3BB452E4C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F03C6E4-0E9A-4E64-B990-A0D2B062BF9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F03C6E4-0E9A-4E64-B990-A0D2B062BF9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F03C6E4-0E9A-4E64-B990-A0D2B062BF9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F03C6E4-0E9A-4E64-B990-A0D2B062BF9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{037B297E-E40B-4069-97D9-E1CB6115A669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037B297E-E40B-4069-97D9-E1CB6115A669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037B297E-E40B-4069-97D9-E1CB6115A669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037B297E-E40B-4069-97D9-E1CB6115A669}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D26FC66-8307-467A-9296-DC02635AE0D7}
+	EndGlobalSection
+EndGlobal

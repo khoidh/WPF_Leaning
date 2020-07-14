@@ -182,7 +182,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\Checked.png" />
+    <Resource Include="Resources\Checkbox\Checked.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\UnChecked.png" />
@@ -202,6 +202,10 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Hover_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Checkbox\UnCheck.png" />
+    <Resource Include="Resources\Checkbox\UnCheckFocus.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

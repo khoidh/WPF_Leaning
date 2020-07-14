@@ -6,7 +6,33 @@
         xmlns:local="clr-namespace:wpfUIDesing01"
         mc:Ignorable="d"
         Title="ListboxCustomize" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="SimpleListBoxItem" TargetType="ListBoxItem">
+
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <Border Name="Border" 
+                                Padding="2"
+                                SnapsToDevicePixels="True">
+                            <ContentPresenter />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter TargetName="Border" 
+                                        Property="Background" Value="{StaticResource AuthorGradient}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
     <Grid>
-        
+        <Grid x:Name="LayoutRoot">
+            <ListBox Margin="10" ItemsSource="{Binding}"/>
+        </Grid>
     </Grid>
 </Window>

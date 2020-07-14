@@ -17,7 +17,7 @@
                             </StackPanel.Background>
                             <Image x:Name="checkboxImage" 
                                    Width="32"
-                                   Source="Resources/Unchecked_Icon.png"
+                                   Source="Resources/Checkbox/UnCheck.png"
                                    HorizontalAlignment="Right"/>
                         </StackPanel>
                         <!--<StackPanel Orientation="Horizontal">
@@ -28,7 +28,7 @@
                             <Trigger Property="IsChecked" Value="True">
                                 <Setter TargetName="checkboxImage" 
                                         Property="Source" 
-                                        Value="Resources/Checked_Icon.png"/>
+                                        Value="Resources/Checkbox/Checked.png"/>
                             </Trigger>
                             <MultiTrigger>
                                 <MultiTrigger.Conditions>
@@ -37,7 +37,7 @@
                                 </MultiTrigger.Conditions>
                                 <Setter TargetName="checkboxImage" 
                                         Property="Source" 
-                                        Value="Resources/Hover_Icon.png"/>
+                                        Value="Resources/Checkbox/UnCheckFocus.png"/>
                             </MultiTrigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
@@ -48,21 +48,6 @@
     
     <Grid>
         <StackPanel Orientation="Horizontal">
-            <CheckBox Style="{StaticResource myCheckboxStyle}" 
-                      Content="ABC"
-                      Width="100"
-                      Height="100"
-                      Margin="10,0,0,0"/>
-            <CheckBox Style="{StaticResource myCheckboxStyle}" 
-                      Content="ABC"
-                      Width="100"
-                      Height="100"
-                      Margin="10,0,0,0"/>
-            <CheckBox Style="{StaticResource myCheckboxStyle}" 
-                      Content="ABC"
-                      Width="100"
-                      Height="100"
-                      Margin="10,0,0,0"/>
             <CheckBox Style="{StaticResource myCheckboxStyle}" 
                       Content="ABC"
                       Width="100"
