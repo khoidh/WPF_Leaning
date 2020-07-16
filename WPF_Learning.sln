@@ -49,6 +49,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database_SQLite", "Database
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data_SqliteEntity", "Data_SqliteEntity\Data_SqliteEntity.csproj", "{C6103FE1-093D-48EE-A5FE-166506009D27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event_Command", "Event_Command\Event_Command.csproj", "{6D3D0483-5206-4BC6-AF79-240030FD91BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{C6103FE1-093D-48EE-A5FE-166506009D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6103FE1-093D-48EE-A5FE-166506009D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6103FE1-093D-48EE-A5FE-166506009D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3D0483-5206-4BC6-AF79-240030FD91BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3D0483-5206-4BC6-AF79-240030FD91BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3D0483-5206-4BC6-AF79-240030FD91BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3D0483-5206-4BC6-AF79-240030FD91BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -129,6 +135,7 @@ Global
 		{BA49EDCC-87EC-4827-BCDD-C718A1C37E4D} = {842EB42D-26A1-4E60-A22F-1BA678493223}
 		{406E4C9F-AD82-400F-BA99-CB306B235F33} = {BA49EDCC-87EC-4827-BCDD-C718A1C37E4D}
 		{C6103FE1-093D-48EE-A5FE-166506009D27} = {CA05A05B-B44C-452D-89C5-D0EC19125EBC}
+		{6D3D0483-5206-4BC6-AF79-240030FD91BC} = {4E1FA45B-BAC3-4AF7-AC8D-EF75F85E71DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B8599ADA-5AD3-4F12-9ED0-0B061FD60CD4}
