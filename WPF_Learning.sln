@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueConverter", "ValueConv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateSourceTrigger", "UpdateSourceTrigger\UpdateSourceTrigger.csproj", "{E02C0C3F-EEFA-43C3-925B-613BF3B8616D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event_Command", "Event_Command\Event_Command.csproj", "{6D3D0483-5206-4BC6-AF79-240030FD91BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,10 @@ Global
 		{E02C0C3F-EEFA-43C3-925B-613BF3B8616D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E02C0C3F-EEFA-43C3-925B-613BF3B8616D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E02C0C3F-EEFA-43C3-925B-613BF3B8616D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3D0483-5206-4BC6-AF79-240030FD91BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3D0483-5206-4BC6-AF79-240030FD91BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3D0483-5206-4BC6-AF79-240030FD91BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3D0483-5206-4BC6-AF79-240030FD91BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -145,6 +151,7 @@ Global
 		{C6103FE1-093D-48EE-A5FE-166506009D27} = {CA05A05B-B44C-452D-89C5-D0EC19125EBC}
 		{CDE1203C-6AD6-4EAB-9DA3-3A135020E392} = {3B8179D3-A4AC-4686-8312-38C0E14CA784}
 		{E02C0C3F-EEFA-43C3-925B-613BF3B8616D} = {3B8179D3-A4AC-4686-8312-38C0E14CA784}
+		{6D3D0483-5206-4BC6-AF79-240030FD91BC} = {4E1FA45B-BAC3-4AF7-AC8D-EF75F85E71DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B8599ADA-5AD3-4F12-9ED0-0B061FD60CD4}
